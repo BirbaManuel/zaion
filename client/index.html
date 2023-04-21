@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Envoi de fichiers</title>
+  </head>
+  <body>
+    <h1>Envoi de fichiers via WebSockets</h1>
+    <form>
+      <label for="fileInput1">Fichier 1 :</label>
+      <input type="file" id="fileInput1"><br>
+      <label for="fileInput2">Fichier 2 :</label>
+      <input type="file" id="fileInput2"><br>
+      <label for="fileInput3">Fichier 3 :</label>
+      <input type="file" id="fileInput3"><br>
+      <button type="button" onclick="sendFiles()">Envoyer</button>
+    </form>
+
+    <script src="client.js"></script>
+  </body>
+</html>

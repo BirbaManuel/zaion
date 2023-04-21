@@ -4,12 +4,15 @@
   "description": "first websocket server",
   "main": "index.js",
   "scripts": {
+    "start:client": "static-server client -p 8080 -o",
+    "start:server": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Manuel Birba",
   "license": "ISC",
   "dependencies": {
-    "ws": "^8.13.0"
+    "ws": "^8.13.0",
+    "static-server": "^2.0.0"
   }
 }
